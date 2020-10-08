@@ -1,0 +1,18 @@
+import math
+
+print("Ноль в качестве знака операции"
+      "\nзавершить работу")
+while True:
+
+    s = input("Знак (+,-,,/,sqrt, !): ")
+    if s == '0':
+        break
+    if s in ('+', '-', '', '/', 'sqrt', '!'):
+        x = float(input("x="))
+        y = float(input("y="))
+        if s == '+':
+            print("%.2f" % (x+y))
+        elif s == '-':
+            print("%.2f" % (x-y))
+        elif s == '':
+            print("%.2f" % (xy))
