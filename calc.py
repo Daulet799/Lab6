@@ -25,13 +25,10 @@ while True:
             print("%.2f" % (math.sqrt(x)))
             print("%.2f" % (math.sqrt(y)))
         elif s == '!':
-            factorial = 1
+           factorial = 1
             while x > 1:
-              if (y > 1):
-                factorial *= x
-                factorial *= y
-                x -= 1
-                y -= 1
-                print(factorial)
+              factorial *= x
+              x -= 1
+              print(factorial)
     else:
         print("Неверный знак операции!")
