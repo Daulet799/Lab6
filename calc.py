@@ -27,8 +27,11 @@ while True:
         elif s == '!':
             factorial = 1
             while x > 1:
-              factorial *= x
-              x -= 1
-              print(factorial)
+              if (y > 1):
+                factorial *= x
+                factorial *= y
+                x -= 1
+                y -= 1
+                print(factorial)
     else:
         print("Неверный знак операции!")
