@@ -7,7 +7,6 @@ while True:
     s = input("Знак (+,-,*,/,sqrt, !): ")
     if s == '0':
         break
-    if s in ('+', '-', '*', '/', 'sqrt', '!'):
         x = float(input("x="))
         y = float(input("y="))
         if s == '+':
