@@ -4,7 +4,7 @@ print("Ноль в качестве знака операции"
       "\nзавершить работу")
 while True:
 
-    s = input("Знак (+,-,,/,sqrt, !): ")
+    s = input("Знак (+,-,*,/,sqrt, !): ")
     if s == '0':
         break
     if s in ('+', '-', '', '/', 'sqrt', '!'):
@@ -14,6 +14,8 @@ while True:
             print("%.2f" % (x+y))
         elif s == '-':
             print("%.2f" % (x-y))
+        elif s == '*':
+            print("%.2f" % (x*y))
         elif s == '/':
             if y != 0:
                 print("%.2f" % (x/y))
